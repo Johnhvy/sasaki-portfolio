@@ -1,0 +1,92 @@
+<!-- Contact Section -->
+<section id="contact" class="section section-secondary d-flex justify-content-center align-items-center">
+
+  <div class="content">
+    <h5 class="section-heading text-center mt-3">Contact</h5>
+
+    <div class="row contact-row m-0">
+
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+        <form id="form" action="" onsubmit="return false">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="user_name" placeholder="Name" required>
+            <label for="floatingName">名前</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="user_email" placeholder="Email" required>
+            <label for="floatingEmail">メール</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Message" id="user_message" style="height: 150px"
+              required></textarea>
+            <label for="floatingTextarea">メッセージ</label>
+          </div>
+
+          <div class="row pt-3 d-flex align-items-center">
+            <div class="col-6">
+              <a href="mailto:pro.dev0530@outlook.com" aria-label="mail link" style="text-decoration: none; color: var(--clr-accent-700)">Send me
+                mail directly</a>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <button id="send-btn" aria-label="send button" type="submit" class="send-btn d-flex justify-content-center align-items-center">
+                Send
+                &nbsp;
+                <span class="iconify" data-icon="ri:send-plane-fill" data-width="20" data-height="20"></span>
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-5 d-block" style="z-index: 15;">
+          <div id="toast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+              <div class="toast-body">
+                Messsage sent
+              </div>
+              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+        <div class="row">
+          <div class="col-12 text-end">
+            <h6 class="section-sub-heading">Email</h6>
+            <p class="mb-5">pro.dev0530@outlook.com</p>
+          </div>
+
+          <div class="col-12 text-end d-flex justify-content-end">
+            <div class="row">
+              <div class="col-12">
+                <h6 class="section-sub-heading">Connect with me</h6>
+              </div>
+              <div class="col-12">
+                <a class="social-links" href="" aria-label="github link" target="_blank">
+                  <span class="iconify social-links-logo" data-icon="akar-icons:github-fill" data-width="45"
+                    data-height="45"></span>
+                </a>
+                <a class="social-links " href="https://www.telegram.com/pro guru/" aria-label="instagram link" target="_blank">
+                  <span class="iconify social-links-logo"
+                    style="color: #ffffff; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);"data-width="45" data-height="45">
+                  <img src="/content/tech/telegram.jfif" width="10%" alt="">
+
+                  </span>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

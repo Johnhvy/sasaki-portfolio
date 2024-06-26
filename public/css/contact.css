@@ -1,0 +1,136 @@
+#contact {
+  background-color: var(--clr-accent-100);
+  background-image: url("/content/map-image.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-row {
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+
+.contrib-info {
+  color: var(--clr-info);
+}
+
+#contact p {
+  color: var(--clr-accent-700);
+  font-weight: var(--fw-bold);
+}
+
+.form-floating>.form-control {
+  background-color: var(--clr-accent-100);
+  color: var(--clr-info);
+  border: 2px solid var(--clr-accent-700);
+}
+
+.form-floating>.form-control:focus {
+  background-color: var(--clr-accent-300);
+  border-color: var(--clr-accent-700);
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
+}
+
+.form-floating>.form-control:active {
+  background-color: var(--clr-accent-300);
+  border-color: var(--clr-accent-700);
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
+}
+
+label {
+  color: var(--clr-info);
+}
+
+.send-btn {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--clr-accent-700);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: var(--clr-accent-700);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: var(--fw-semi-bold);
+  line-height: normal;
+  margin: 0;
+  font-size: 16px;
+  height: 40px;
+  text-transform: uppercase;
+  max-width: 100px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.send-btn:disabled {
+  pointer-events: none;
+}
+
+.send-btn:hover {
+  color: #fff;
+  background-color: var(--clr-accent-700);
+  box-shadow: rgba(78, 186, 191, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.send-btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#toast {
+  font-size: var(--fs-100);
+  width: 300px;
+}
+
+.btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
+}
+
+.btn-close:active {
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
+}
+
+.social-links {
+  text-decoration: none;
+  color: #212529;
+}
+
+.social-links:hover {
+  color: #212529;
+}
+
+.social-links-logo {
+  background-color: white;
+  border-radius: 12px
+}
+
+.social-links-logo:hover {
+  transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.07);
+}
+
+/* media query */
+@media (max-width: 1200px) {}
+
+@media (max-width: 945px) {}
+
+@media (max-width: 780px) {
+  #toast {
+    width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact-row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-height: 820px) {}
